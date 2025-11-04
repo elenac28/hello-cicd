@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (_req, res) => {
-    res.json({ status: "ok", service: "hello-cicd", version: "1.0.1" });
+    res.json({ status: "ok", service: "hello-cicd", version: "1.0.2" });
 });
 
 const port = process.env.PORT || 8080;
